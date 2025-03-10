@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Películas de Terror y Ciencia Ficción" />
     <meta name="description" content="Películas de Terror" />
     <meta name="author" content="" />
+    <title>Top Películas</title>
     <title>Top Películas de Terror</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -13,6 +15,19 @@
     <link href="css/styles.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+            /* Permite un desplazamiento suave al hacer clic en los enlaces */
+        }
+        
+        .top-peliculas {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,12 +36,16 @@
         <div class="border-end bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light">Menú</div>
             <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#terror">🎃 Películas de Terror</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#ciencia-ficcion">🚀 Películas de Ciencia Ficción</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#animadas">🎬 Películas Animadas</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Inicio</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Películas</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Series</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Contacto</a>
             </div>
         </div>
+
         <!-- Page content wrapper -->
         <div id="page-content-wrapper">
             <!-- Top navigation -->
@@ -34,10 +53,14 @@
                 <div class="container-fluid">
                     <button class="btn btn-primary" id="sidebarToggle">☰ Menú</button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="#terror">Películas de Terror</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ciencia-ficcion">Películas de Ciencia Ficción</a></li>
                             <li class="nav-item active"><a class="nav-link" href="#!">Inicio</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Categorías</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Acerca de</a></li>
@@ -45,8 +68,11 @@
                     </div>
                 </div>
             </nav>
+
+            <!-- Sección de Terror -->
             <!-- Page content -->
             <div class="container-fluid">
+                <h1 id="terror" class="mt-4">🎃 Top Películas de Terror</h1>
                 <h1 class="mt-4">Top Películas de Terror</h1>
 
                 <div class="top-peliculas">
@@ -69,14 +95,65 @@
                         <h3>Actividad Paranormal</h3>
                         <p>Una pareja comienza a experimentar fenómenos inexplicables en su casa, lo que los lleva a instalar cámaras para registrar los aterradores eventos nocturnos.</p>
                     </div>
+                    <div class="pelicula">
+                        <h3>El Exorcista</h3>
+                        <p>Una niña comienza a mostrar un comportamiento aterrador y su madre busca la ayuda de dos sacerdotes para realizar un exorcismo y salvarla de la posesión demoníaca.</p>
+                    </div>
+                </div>
+
+                <!-- Sección de Ciencia Ficción -->
+                <h1 id="ciencia-ficcion" class="mt-4">🚀 Top Películas de Ciencia Ficción</h1>
+                <div class="top-peliculas">
+                    <div class="pelicula">
+                        <h3>Interestelar</h3>
+                        <p>Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad, enfrentando desafíos científicos y emocionales.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>Blade Runner 2049</h3>
+                        <p>Un nuevo blade runner, K, descubre un secreto enterrado que lo lleva a buscar al desaparecido Rick Deckard, en un mundo donde la inteligencia artificial y los replicantes desafían la realidad.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>Matrix</h3>
+                        <p>Neo, un hacker, descubre que la realidad que conoce es una simulación controlada por máquinas y debe unirse a la resistencia para liberar a la humanidad.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>El Quinto Elemento</h3>
+                        <p>En un futuro lejano, un taxista se ve envuelto en una misión para salvar la Tierra al proteger a una misteriosa mujer que posee el poder del quinto elemento.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>Inception</h3>
+                        <p>Un ladrón con la habilidad de infiltrarse en los sueños de otras personas recibe el encargo de implantar una idea en la mente de un objetivo, llevándolo a un mundo de realidades dentro de realidades.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Sección de Películas Animadas -->
+    <h1 id="animadas" class="mt-4">🎬 Top Películas Animadas</h1>
+    <div class="top-peliculas">
+        <div class="pelicula">
+            <h3>Wall-E (2008)</h3>
+            <p>Fuera de algunas secuencias de televisión grabadas, pasan 22 minutos antes de que escuchemos hablar a alguien en Wall-E –dos robots–, y 39 antes de que alguien –uno de los humanos que residen en la enorme nave espacial que flota por el universo–
+                pronuncie una palabra. La sección que precede a la primera línea de diálogo podría fácilmente considerarse por sí sola como un cortometraje increíblemente bello sobre un robot –nuestro héroe titular– que deja atrás para limpiar lo que
+                queda de una Tierra abandonada.</p>
+        </div>
+    </div>
+
     <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS -->
     <script src="js/scripts.js"></script>
 </body>
+
+</html>
+
+
+
+
+
+
+
+
+
 
 </html>
