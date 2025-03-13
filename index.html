@@ -4,11 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Películas de Terror y Ciencia Ficción" />
-    <meta name="description" content="Películas de Terror" />
+    <meta name="description" content="Películas de Terror, Ciencia Ficción, Animadas y Drama" />
     <meta name="author" content="" />
     <title>Top Películas</title>
-    <title>Top Películas de Terror</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -18,7 +16,6 @@
     <style>
         html {
             scroll-behavior: smooth;
-            /* Permite un desplazamiento suave al hacer clic en los enlaces */
         }
         
         .top-peliculas {
@@ -32,46 +29,25 @@
 
 <body>
     <div class="d-flex" id="wrapper">
-        <!-- Sidebar -->
         <div class="border-end bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light">Menú</div>
             <div class="list-group list-group-flush">
-
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Inicio</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Películas</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#Inicio">Inicio</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#terror">🎃 Películas de Terror</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#ciencia-ficcion">🚀 Películas de Ciencia Ficción</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#animadas">🎬 Películas Animadas</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#drama">🎭Películas de Drama</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Contacto</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#drama">🎭 Películas de Drama</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#contacto">Contacto</a>
             </div>
         </div>
 
-        <!-- Page content wrapper -->
         <div id="page-content-wrapper">
-            <!-- Top navigation -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <div class="container-fluid">
                     <button class="btn btn-primary" id="sidebarToggle">☰ Menú</button>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
-                     </button>
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="#terror">Películas de Terror</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#ciencia-ficcion">Películas de Ciencia Ficción</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="#!">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#!">Categorías</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#!">Acerca de</a></li>
-                        </ul>
-                    </div>
                 </div>
             </nav>
 
-            <!-- Sección de Terror -->
-            <!-- Page content -->
             <div class="container-fluid">
                 <h1 id="terror" class="mt-4">🎃 Top Películas de Terror</h1>
                 <div class="top-peliculas">
@@ -79,17 +55,14 @@
                         <h3>El Conjuro</h3>
                         <p>Basada en hechos reales, narra la historia de los investigadores paranormales Ed y Lorraine Warren, quienes intentan ayudar a una familia aterrorizada por una presencia oscura en su casa.</p>
                     </div>
-
                     <div class="pelicula">
                         <h3>It (Eso)</h3>
                         <p>Un grupo de niños en el pueblo de Derry enfrenta a una entidad maligna que toma la forma de sus peores miedos, en especial del aterrador payaso Pennywise.</p>
                     </div>
-
                     <div class="pelicula">
                         <h3>La Noche del Demonio</h3>
                         <p>Una familia descubre que su hijo ha caído en un estado de coma inexplicable y que su cuerpo es un portal para entidades demoníacas que intentan poseerlo.</p>
                     </div>
-
                     <div class="pelicula">
                         <h3>Actividad Paranormal</h3>
                         <p>Una pareja comienza a experimentar fenómenos inexplicables en su casa, lo que los lleva a instalar cámaras para registrar los aterradores eventos nocturnos.</p>
@@ -100,7 +73,6 @@
                     </div>
                 </div>
 
-                <!-- Sección de Ciencia Ficción -->
                 <h1 id="ciencia-ficcion" class="mt-4">🚀 Top Películas de Ciencia Ficción</h1>
                 <div class="top-peliculas">
                     <div class="pelicula">
@@ -124,70 +96,70 @@
                         <p>Un ladrón con la habilidad de infiltrarse en los sueños de otras personas recibe el encargo de implantar una idea en la mente de un objetivo, llevándolo a un mundo de realidades dentro de realidades.</p>
                     </div>
                 </div>
+
+                <h1 id="animadas" class="mt-4">🎬 Top Películas Animadas</h1>
+                <div class="top-peliculas">
+                    <div class="pelicula">
+                        <h3>Wall-E</h3>
+                        <p>Fuera de algunas secuencias de televisión grabadas, pasan 22 minutos antes de que escuchemos hablar a alguien en Wall-E –dos robots–, y 39 antes de que alguien –uno de los humanos que residen en la enorme nave espacial que flota
+                            por el universo– pronuncie una palabra. La sección que precede a la primera línea de diálogo podría fácilmente considerarse por sí sola como un cortometraje increíblemente bello sobre un robot –nuestro héroe titular– que deja
+                            atrás para limpiar lo que queda de una Tierra abandonada.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>El viaje de Chihiro</h3>
+                        <p>Libérrima, intensa y deslumbrante, es una de esas películas que inventan su realidad a cada plano, tensando la capacidad de asombro del espectador, sometido a una experiencia equivalente a una sobredosis del Grandville más alucinatorio
+                            inyectada por un calígrafo oriental empeñado en reinventar el alfabeto. O, directamente, el lenguaje del universo.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>El rey león</h3>
+                        <p>La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, al ser injustamente acusado por el malvado Scar de la muerte de su padre, se ve obligado
+                            a exiliarse.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>La tumba de las luciérnagas</h3>
+                        <p>Segunda Guerra Mundial (1939-1945). Seita y Setsuko son hijos de un oficial de la marina japonesa que viven en Kobe. Un día, durante un bombardeo, no consiguen llegar a tiempo al búnker donde su madre los espera.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>Spider-Man: Un nuevo universo</h3>
+                        <p>Su brillante animación sirve para que Miles Morales, un joven que hereda los poderes y responsabilidades de Spidey, actualice el personaje a ritmo de Post Malone mientras hace equipo con un variopinto equipo de víctimas de la mordedura
+                            de la araña venidos de diferentes planos existenciales.</p>
+                    </div>
+                </div>
+
+                <h1 id="drama" class="mt-4">🎭 Top Películas de Drama</h1>
+                <div class="top-peliculas">
+                    <div class="pelicula">
+                        <h3>El Padrino</h3>
+                        <p>En el verano de 1945, se celebra la boda de Connie (Talia Shire) y Carlo Rizzi (Gianni Russo). Connie es la única hija de Don Vito Corleone (Marlon Brando), jefe de una de las familias que ejercen el mando de la Cosa Nostra en
+                            la ciudad de Nueva York. Don Vito además tiene otros tres hijos</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>La lista de Schindler</h3>
+                        <p>Septiembre de 1939. Los nazis invaden Polonia. Los judíos son internados en guetos y enviados a campos de concentración. El empresario alemán Oskar Schindler (Liam Neeson), un dandy oportunista con talento para las relaciones públicas,
+                            aprovecha esta situación para prosperar económicamente.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>Sueños de fuga</h3>
+                        <p>En 1947, Andy Dufresne (Tim Robbins), un joven banquero, es condenado a cadena perpetua por asesinar a su esposa y su amante. A pesar de declararse inocente, es encarcelado en Shawshank, el penitenciario más duro del estado de
+                            Maine. Allí se encontrará con Red Redding (Morgan Freeman), un hombre desilusionado, encarcelado.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>El Padrino Parte II</h3>
+                        <p>Tras la muerte de Don Vito Corleone (Marlon Brando), su hijo Michael (Al Pacino, 'Jack y su gemela') se convierte en el cabeza de familia. Al tener que negociar con la mafia judía, pierde el apoyo de uno de sus hombres, Frankie
+                            Pentageli (Michael V. Gazzo, 'El último gran héroe'). Tras escapar por los pelos de un atentado.</p>
+                    </div>
+                    <div class="pelicula">
+                        <h3>La vida es bella</h3>
+                        <p>La Segunda Guerra Mundial está a punto de estallar en Europa. Mientras tanto, Guido llega a un pueblo italiano con la intención de abrir una librería. Allí se enamora de la novia de un fascista italiano, Dora. Ésta sucumbirá a
+                            sus encantos y Guido consigue que se case con él.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- Sección de Películas Animadas -->
-    <h1 id="animadas" class="mt-4">🎬 Top Películas Animadas</h1>
-    <div class="top-peliculas">
-        <div class="pelicula">
-            <h3>1. Wall-E (2008)</h3>
-            <p>Fuera de algunas secuencias de televisión grabadas, pasan 22 minutos antes de que escuchemos hablar a alguien en Wall-E –dos robots–, y 39 antes de que alguien –uno de los humanos que residen en la enorme nave espacial que flota por el universo–
-                pronuncie una palabra. La sección que precede a la primera línea de diálogo podría fácilmente considerarse por sí sola como un cortometraje increíblemente bello sobre un robot –nuestro héroe titular– que deja atrás para limpiar lo que
-                queda de una Tierra abandonada.</p>
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> origin/main
-            <h3>2. El viaje de Chihiro (2001)</h3>
-            <p>Libérrima, intensa y deslumbrante, es una de esas películas que inventan su realidad a cada plano, tensando la capacidad de asombro del espectador, sometido a una experiencia equivalente a una sobredosis del Grandville más alucinatorio inyectada
-                por un calígrafo oriental empeñado en reinventar el alfabeto. O, directamente, el lenguaje del universo.</p>
-            <h3>3. El rey león (1994)</h3>
-            <p>La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, al ser injustamente acusado por el malvado Scar de la muerte de su padre, se ve obligado a exiliarse.</p>
-            <h3>4. La tumba de las luciérnagas (1988)</h3>
-            <p>Segunda Guerra Mundial (1939-1945). Seita y Setsuko son hijos de un oficial de la marina japonesa que viven en Kobe. Un día, durante un bombardeo, no consiguen llegar a tiempo al búnker donde su madre los espera.</p>
-            <h3>5. Spider-Man: Un nuevo universo (2018)</h3>
-            <p>Su brillante animación sirve para que Miles Morales, un joven que hereda los poderes y responsabilidades de Spidey, actualice el personaje a ritmo de Post Malone mientras hace equipo con un variopinto equipo de víctimas de la mordedura de
-                la araña venidos de diferentes planos existenciales.</p>
-<<<<<<< HEAD
-        </div>
-    </div>
-    <!-- Sección de Películas de Drama -->
-    <h1 id="Drama" class="mt-4">🎭 Top Películas Drama</h1>
-    <div class="top-peliculas">
-        <div class="pelicula">
-            <h3>1. El padrino</h3>
-            <p>En el verano de 1945, se celebra la boda de Connie (Talia Shire) y Carlo Rizzi (Gianni Russo). Connie es la única hija de Don Vito Corleone (Marlon Brando), jefe de una de las familias que ejercen el mando de la Cosa Nostra en la ciudad de
-                Nueva York. Don Vito además tiene otros tres hijos</p>
-            <h3>2. La lista de Schindler</h3>
-            <p>Septiembre de 1939. Los nazis invaden Polonia. Los judíos son internados en guetos y enviados a campos de concentración. El empresario alemán Oskar Schindler (Liam Neeson), un dandy oportunista con talento para las relaciones públicas, aprovecha
-                esta situación para prosperar económicamente.</p>
-            <h3>3. Sueños de fuga</h3>
-            <p>En 1947, Andy Dufresne (Tim Robbins), un joven banquero, es condenado a cadena perpetua por asesinar a su esposa y su amante. A pesar de declararse inocente, es encarcelado en Shawshank, el penitenciario más duro del estado de Maine. Allí
-                se encontrará con Red Redding (Morgan Freeman), un hombre desilusionado, encarcelado.</p>
-            <h3>4. El Padrino Parte II</h3>
-            <p>Tras la muerte de Don Vito Corleone (Marlon Brando), su hijo Michael (Al Pacino, 'Jack y su gemela') se convierte en el cabeza de familia. Al tener que negociar con la mafia judía, pierde el apoyo de uno de sus hombres, Frankie Pentageli (Michael
-                V. Gazzo, 'El último gran héroe'). Tras escapar por los pelos de un atentado.</p>
-=======
->>>>>>> origin/main
-        </div>
-    </div>
-    <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS -->
     <script src="js/scripts.js"></script>
 </body>
-
-</html>
-
-
-
-
-
-
-
-
-
 
 </html>
